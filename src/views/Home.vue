@@ -1,15 +1,15 @@
 <template>
-  <hello-world />
+  <counter />
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+  import Counter from '../components/Counter'
 
   export default {
     name: 'Home',
 
     components: {
-      HelloWorld,
+      Counter,
     },
   }
 </script>
