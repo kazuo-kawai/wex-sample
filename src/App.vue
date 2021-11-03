@@ -1,17 +1,16 @@
 <template>
 <div id="app">
   <v-app>
-    <v-app-bar
-      app
+    <v-app-bar app
       color="primary"
       dark
     >
+    <span>カウンター</span>
     </v-app-bar>
     <v-main>
-      <router-view/>
+      <Counter />
     </v-main>
   </v-app>
-  <Counter />
 </div>
 </template>
 
