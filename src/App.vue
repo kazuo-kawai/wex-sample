@@ -9,6 +9,7 @@
     </v-app-bar>
     <v-main>
       <Counter />
+      <DoubleCounter />
     </v-main>
   </v-app>
 </div>
@@ -16,10 +17,13 @@
 
 <script>
 import Counter from './components/Counter.vue' 
+import DoubleCounter from './components/DoubleCounter.vue'
+
 export default {
   name: 'app',
   components: {
-    Counter
+    Counter,
+    DoubleCounter
   },
   data: () => ({
     //
