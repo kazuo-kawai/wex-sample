@@ -1,7 +1,7 @@
 <template>
     <div>
-    <button @click="increment">increment {{ step }}</button>
-    <span>total {{ count }}</span>
+    <button @click="increment">increment {{ step }} </button>
+    <span>total {{ count }} </span>
     </div>
 </template>
 <script>
